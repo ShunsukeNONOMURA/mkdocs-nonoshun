@@ -1,0 +1,90 @@
+- title: ChilloutMix
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c0ede51-3213-4f2c-0c7b-c32bc59a6f00/width=450/01703-1306840953-(masterpiece;1.0),%20(best%20quality_1.4),%20(ultra%20highres_1.2),%20(photo_1.0),%20(photorealistic_1.2),%20(8k_1.0),%20(sharp%20focus_1.6),%20135m_cleanup.jpeg
+  path_model: 
+  comment: | 
+    商用不可
+# - title: chilled_remix
+#   path_thumbnail: 
+#   path_model: https://huggingface.co/sazyou-roukaku/chilled_remix
+#   comment: | 
+- title: Beautiful Realistic Asians(BRA)
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8af758cc-37c2-48ca-aa41-4729db53eec0/width=450/grid-0001-1.jpeg
+  path_model: https://civitai.com/models/25494?modelVersionId=63786
+  comment: | 
+
+- title: ICBINP - "I Can't Believe It's Not Photography"
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b2fecf1-4bad-4384-894e-6689750aaec4/width=450/3.jpeg
+  path_model: https://civitai.com/models/28059/icbinp-i-cant-believe-its-not-photography
+  comment: | 
+
+- title: FlexDreamHK
+  path_thumbnail: https://huggingface.co/den2nova/FlexDreamHK/resolve/main/sample/banner.jpg
+  path_model: https://huggingface.co/den2nova/FlexDreamHK
+  comment: | 
+
+# - title: lastpieceMix
+#   path_thumbnail: https://huggingface.co/konapieces/lastpieceMix/resolve/main/images/logo.png
+#   path_model: https://huggingface.co/konapieces/lastpieceMix
+#   comment: | 
+#     公開停止 https://twitter.com/konapieces/status/1672838467234205698?cxt=HHwWhMDU4aHujrcuAAAA
+#     CreativeML OpenRAIL-Mライセンスのみのモデルを利用したマージモデル
+#     推奨設定 (Recommended settings)
+#     Sampler: DPM++ 2M Karras
+#     Step: 30 - 40
+#     CFG scale: 9 - 11
+#     Denoising strength: 0.55 - 0.6
+#     Clip skip: 2
+#     Hires upscale: 2
+#     Hires steps: 10 - 15
+#     Hires upscaler: Latent (nearest)
+#     VAE: vae-ft-mse-840000-ema-pruned
+
+- title: anything
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56d4c63f-5be6-4ef0-b45b-7fdef85b44ad/width=450/09482-number-seed.jpeg
+  path_model: https://civitai.com/models/9409
+  comment: | 
+- title: Ageless
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d82e73b-7bf7-441f-ab40-d3fba5d74d39/width=450/00104-748092942_20230518210636.jpeg
+  path_model: https://civitai.com/models/58556?modelVersionId=74004
+  comment: | 
+- title: Counterfeit-V3.0
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd9914c5-f37a-4cc0-1f26-80b2dcd23d00/width=450/000.jpeg
+  path_model: https://civitai.com/models/4468/counterfeit-v30
+  comment: | 
+- title: MeinaMix
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c9892af-9240-4108-896a-acda424dd196/width=450/00037-3212833155.jpeg)
+  path_model: https://civitai.com/models/7240/meinamix
+  comment: | 
+
+- title: AbyssOrangeMix3(AOM3)
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e43c79f-1a34-46a5-0708-c031a8ede200/width=450/175095.jpeg
+  path_model: https://civitai.com/models/9942/abyssorangemix3-aom3
+  comment: | 
+    nsfw適正高
+    商用不可(ChilloutMix由来の模様)
+- title: AbyssOrangeMix2 - Hardcore
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86500229-f173-4bb6-a78a-7dcf6b49e4f3/width=450/00094-761693336.jpeg
+  path_model: https://civitai.com/models/4451?modelVersionId=5038
+  comment: | 
+    nsfw適正高
+- title: DareLites Fantasy-Leaning-To-Anime mix
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/680783ac-42dd-4d1f-e023-cd41b4a38d00/width=450/03237-1837737517-ash%20grey%20hair,%20updo%20hairstyle,%20streaks%20of%20hair%20in%20face,%20red%20eyes,%20mascara,%20oversized%20hoodie,%20midriff,%20hot%20pants,%20tights,%20laced%20t.jpeg
+  path_model: https://civitai.com/models/12116/darelites-fantasy-leaning-to-anime-mix
+  comment: | 
+    nsfw適正高
+- title: Hassaku (hentai model)
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73f0cd48-9c7f-40ce-8ae4-962de6a0705c/width=450/10429-2667227170-masterpiece,%20best%20quality,%201girl,%20black%20hair,%20angel,%20innocent,%20brown%20eyes,%20angel%20wings,%20black%20dress,%20arms%20%20behind%20back,%20sky,%20hal.jpeg
+  path_model: https://civitai.com/models/2583/hassaku-hentai-model
+  comment: | 
+    nsfw適正高
+- title: 【Checkpoint】YesMix
+  path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ecd09f6-9c9d-49ac-8b7a-f0b96bce1b78/width=450/00023-20230613213307.jpeg
+  path_model: https://civitai.com/models/9139/checkpointyesmix
+  comment: | 
+    nsfw適正高
+
+# テンプレ用
+- title: 
+  path_thumbnail: 
+  path_model: 
+  comment: | 

@@ -1,0 +1,37 @@
+- asset_name: EasyNegative
+  asset_path: https://huggingface.co/datasets/gsdf/EasyNegative
+  # https://civitai.com/models/7808/easynegative
+  asset_path_thumbnail: https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/sample01.png
+  comment: |
+    Counterfeitで学習されたNegative Prompt Embedding
+    イラスト生成のモデル用途ではあるが、リアル系でも一定の寄与がある。
+    EasyNegative
+
+# - asset_name: EasyNegativeV2
+#   asset_path: https://huggingface.co/gsdf/Counterfeit-V3.0/tree/main/embedding
+#   asset_path_thumbnail: 
+#   comment: |
+#     EasyNegativeV2
+
+
+
+- asset_name: negative_hand Negative Embedding
+  asset_path: https://civitai.com/models/56519/negativehand-negative-embedding
+  asset_path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1de1b4da-e9eb-43bf-9e9c-050e51cbbb25/width=450/Aurora_preview.jpeg
+  comment: |
+    手や指の崩れを防ぐネガティブプロンプト。
+    bad-hands5などの他手法に比べると画像変化の影響が押さえられている。
+    negative_hand-neg
+
+- asset_name: bad-hands-5
+  asset_path: https://huggingface.co/yesyeahvh/bad-hands-5/tree/main
+  # asset_path_thumbnail: ''
+  comment: |
+    手や指の崩れを防ぐネガティブプロンプト。
+    bad-hands-5
+
+# テンプレ
+- asset_name:
+  asset_path: 
+  asset_path_thumbnail: 
+  comment:

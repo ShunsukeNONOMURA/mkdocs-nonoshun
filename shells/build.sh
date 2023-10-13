@@ -1,0 +1,1 @@
+docker exec -i mkdocs-nonoshun /bin/ash -c "mkdocs build"
