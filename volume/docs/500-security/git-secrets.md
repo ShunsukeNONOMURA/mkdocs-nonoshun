@@ -80,7 +80,7 @@ Possible mitigations:
 - Use --no-verify if this is a one-time false positive
 ```
 
-なお、gitリポジトリで管理している本ページでのダミーの認証情報の記載は、  
+なお、gitリポジトリで管理している本ページでのダミーの認証情報(AKIAIOSFODNN7EXAMPLEなど)の記載は、  
 allowedに設定しているものであるため、検出対象から排除している。
 
 ## 参考
