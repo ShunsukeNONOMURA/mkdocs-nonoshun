@@ -11,3 +11,8 @@ Teams内からメールアドレスを取得できる。
 メンションはhtml記述できるらしい。
 
 [チャネルにメールから投稿する場合のメンション方法がわかりません。](https://answers.microsoft.com/ja-jp/msteams/forum/all/%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%81%AB/36f4ea25-2b93-4a36-b0ec-80ae38bee059)
+
+## outlookのメールフィルタの方法
+- ディレクトリ作成
+- メール仕訳ルール作成
+- [【簡単】Outlookに仕分けルールを設定してメールの振り分けを行う方法](https://www.pnc.jp/blog/outlook-sorting/)

@@ -11,3 +11,5 @@ Fully Convolutional Networks:FCN
 
 Generative Adversarial Network:GAN
 [GAN(敵対的生成ネットワーク)について説明します!](https://crystal-method.com/topics/gan/)
+
+

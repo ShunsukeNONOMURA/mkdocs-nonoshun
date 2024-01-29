@@ -2,247 +2,317 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/index.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/000-mkdocs/mkdocs-installation.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/000-mkdocs/mkdocs-sample.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/001-linux/ubuntu-22-04-lst-setup.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/100-work/work-tool.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/201-architecture/001-naming-conventions.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/201-architecture/api.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/201-architecture/cqrs.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/201-architecture/ddd.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/201-architecture/rdb.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/00-diffusion-model.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/01-stable-diffusion-webui.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/10-stable-diffusion-webui-hires.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/99-stable-diffusion-memo.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/301-ai-diffusion-model-asset/001-models-stable-diffusion.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/301-ai-diffusion-model-asset/002c-lora-character.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/301-ai-diffusion-model-asset/003-textual-inversion.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/301-ai-diffusion-model-asset/999-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/00-benchmark-hatsune-miku-1.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/01-benchmark-middle-aged-man-1.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/02-benchmark-sdxl.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/03-benchmark-middle-aged-hatsunemiku-1.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://0.0.0.0/mkdocs-dev/400-technic-python/hash.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/04-benchmark-sdxl-to-love-ru.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/320-llm/001-llm-rag.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/320-llm/002-llm-react.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/320-llm/999-llm-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/400-technic-linux/001-linux-basic.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/400-technic-linux/010-cron.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/400-technic-linux/999-linux-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/400-technic-python/001-hash.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/400-technic-python/002-web-scraping.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/400-technic-python/999-python-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/400-technic-python/llm.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://0.0.0.0/mkdocs-dev/400-technic-python/web-scraping.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <loc>http://0.0.0.0/mkdocs-dev/401-technic-git/000-git-basic.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/401-technic-git/001-git-secrets.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/401-technic-postgresql/000-docker-construction.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/401-technic-postgresql/999-postgresql-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/402-technic-opensearch/000-docker-construction.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/402-technic-opensearch/001-basic-request.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/402-technic-opensearch/002-update-index.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/402-technic-opensearch/010-search-japanese.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/402-technic-opensearch/011-search-one-to-many.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/402-technic-opensearch/999-opensearch-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/410-technic-nuxt/github-pages.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://0.0.0.0/mkdocs-dev/420-technic-design/figma.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <loc>http://0.0.0.0/mkdocs-dev/410-technic-nuxt/memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/420-technic-design/999-design-tmp-memo.html</loc>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-aws.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-cron.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-deeplearning.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-design.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-git.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-linux.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-logical-thinking.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-nlp.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-office.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-opensearch.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-postgresql.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-python.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-serverless-framework.html</loc>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-typescript.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-vscode.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-vue3.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-windows.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/499-technic-memo/technic-writing.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/500-security/cvss.html</loc>
-         <lastmod>2023-10-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/500-security/git-secrets.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/900-life/albam.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://0.0.0.0/mkdocs-dev/900-life/finance.html</loc>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/900-life/game-kan-colle-arcade.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/900-life/game-pokemon.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/900-life/self-introduction.html</loc>
-         <lastmod>2023-10-13</lastmod>
+         <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

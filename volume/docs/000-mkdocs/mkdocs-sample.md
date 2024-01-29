@@ -263,6 +263,12 @@ end
 ```
 [https://mermaid.js.org/intro/](https://mermaid.js.org/intro/)
 
+これらの文字列は使えないことに注意する。
+```
+！”＃＄％＆’（）＝＾〜｜￥１２３４５６７８９０＠｀「」｛｝；：＋＊＜＞、。・？＿
+```
+[Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca#mermaid.js%E3%81%A7%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84%EF%BC%9F%E6%96%87%E5%AD%97)
+
 ## 動画
 ### ローカルリソース参照
 [stable diffusion webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (text2video) で動画作成

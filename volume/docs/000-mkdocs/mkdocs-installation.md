@@ -143,6 +143,7 @@ volume/site/
 - 静的コンテンツとして配布できるようにビルド
 
 ### 参考
+- [MkDocs User Guide](https://www.mkdocs.org/user-guide/)
 - [最高のソフトウェアドキュメント製作ツール(mkdocs + plantuml + mermaid.js)をdockerで作成する](https://qiita.com/ryohei_takasugi/items/d8110ebbb25e87a007ae)
 - [MkDocs拡張機能 フォルダの名前を書き換える (Awesome-Pages)](https://kurotorimkdocs.gitlab.io/kurotorimemo/040-Documents/MkDocs/Extension/#awesome-pages)
 - [MKDocsで数式を書く方法](https://enu23456.hatenablog.com/entry/2022/11/22/214014)

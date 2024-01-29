@@ -36,6 +36,15 @@
   lora_path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/287b322b-c101-4772-c1cf-20010b4f8e00/width=450/314941.jpeg
   # character_name:
   # character_tag: 艦これ
+
+- lora_name: Yamashiro (Kancolle)
+  lora_path_model: https://civitai.com/models/122587/yamashiro-kancolle
+  lora_path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/054b8777-f9ad-4e1d-9680-db959a58dac9/width=450/00.jpeg
+  lora_prompt_example: |
+    <lora:Yamashiro-10:1> Yamashiro, black_hair, red_eyes, short_hair, hair_ornament
+  # character_name:
+  # character_tag: 艦これ
+
 - lora_name: suzuya (kancolle)
   lora_path_model: https://civitai.com/models/19407?modelVersionId=23033
   lora_path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d8a727e-0639-4fb4-c5c2-aad4dcda8a00/width=450/248996.jpeg
@@ -197,10 +206,25 @@
   # character_name:
   # character_tag: 
 
+## One Piece
+- lora_name: Nami (One Piece) Pre and Post Timeskip LoRA
+  lora_path_model: https://civitai.com/models/15431/nami-one-piece-pre-and-post-timeskip-lora
+  lora_path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e147d008-06cb-4f3b-52c7-995b67d6cc00/original=true/187076.jpeg
+  lora_prompt_example: |
+    <lora:nami_final_offset:1> nami \(one piece\), brown eyes, long hair, orange hair
+- lora_name: Nami ナミ / One Piece
+  lora_path_model: https://civitai.com/models/211140/nami-one-piece
+  lora_path_thumbnail: https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9994f38b-1996-44f6-9ea6-646fba29792f/original=true/03-1.jpeg
+  lora_prompt_example: |
+    <lora:nami_(one_piece)_v1:0.8> nami (one piece), short hair, orange hair, brown eyes, striped shirt, white shirt, short sleeves, bracelet, miniskirt, yellow skirt
+
+
 # テンプレ
 - lora_name: 
   lora_path_model: 
   lora_path_thumbnail: 
-  lora_prompt_example:
+  lora_prompt_example: |
+    ex1
+    ex2
   # character_name:
   # character_tag: 
