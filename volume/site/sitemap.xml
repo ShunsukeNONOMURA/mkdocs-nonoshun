@@ -36,37 +36,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://0.0.0.0/mkdocs-dev/201-architecture/cqrs.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>http://0.0.0.0/mkdocs-dev/201-architecture/ddd.html</loc>
          <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://0.0.0.0/mkdocs-dev/201-architecture/rdb.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/00-diffusion-model.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/01-stable-diffusion-webui.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/10-stable-diffusion-webui-hires.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/300-ai-diffusion-model/99-stable-diffusion-memo.html</loc>
          <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -82,36 +57,6 @@
     </url>
     <url>
          <loc>http://0.0.0.0/mkdocs-dev/301-ai-diffusion-model-asset/003-textual-inversion.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/301-ai-diffusion-model-asset/999-tmp-memo.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/00-benchmark-hatsune-miku-1.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/01-benchmark-middle-aged-man-1.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/02-benchmark-sdxl.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/03-benchmark-middle-aged-hatsunemiku-1.html</loc>
-         <lastmod>2024-01-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://0.0.0.0/mkdocs-dev/310-ai-diffusion-model-benchmark/04-benchmark-sdxl-to-love-ru.html</loc>
          <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>

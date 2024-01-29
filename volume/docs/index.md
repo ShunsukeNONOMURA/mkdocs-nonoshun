@@ -7,9 +7,12 @@
 - 予告なしに本サイトは停止される場合がある
 - 普遍的知見についての記述がメインである
 - 積極的な情報発信を行うことを目的としない
+- 特筆するトピックについては別リポジトリに分けることにした。リンク参照。
 
 ## リンク
 - [github repository mkdocs-nonoshun](https://github.com/ShunsukeNONOMURA/mkdocs-nonoshun)
+- [MkDocs nuxt3](https://shunsukenonomura.github.io/nuxt3-master/docs/volume/site/)
+- [MkDocs AI Image Generation](https://shunsukenonomura.github.io/mkdocs-ai-image-generation/volume/site/)
 
 <!--
 - 引用時の利用方法については個人に委ねる

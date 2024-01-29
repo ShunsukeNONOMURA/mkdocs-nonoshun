@@ -14,8 +14,6 @@
     - hires. fix
 3. 1もしくは2の画像をControlNet 1.1 Tile Resampleの参照としてi2iで高解像度化
 
-
-
 ## ControlNet 1.1 Tile Resample
 
 一度作成した画像を元にノイズリダクションが進むので、
