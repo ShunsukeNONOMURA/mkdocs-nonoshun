@@ -27,12 +27,12 @@
 
 
 ## Tool
-| 成果物 | tool |
-| - | - |
-| RDB設計, DDL | RDBサーバー, schemaspy |
-| シーケンス図 | mermaid |
-| サービス構成図 | draw.io |
-| API仕様書 | FastAPI(redoc, swagger) |
+| 成果物         | tool                    |
+| -------------- | ----------------------- |
+| RDB設計, DDL   | RDBサーバー, schemaspy  |
+| シーケンス図   | mermaid                 |
+| サービス構成図 | draw.io                 |
+| API仕様書      | FastAPI(redoc, swagger) |
 
 ## 考察
 ### コードtoドキュメントな手段がほしい

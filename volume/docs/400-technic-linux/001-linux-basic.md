@@ -1,11 +1,31 @@
 # linux利用メモ
 
+## chown
+所有者変更
+
+```
+sudo chown -R {user}:{group} {dir}
+# sample
+sudo chown -R testuser:testuser ./hoge/
+```
+
+### オプション
+- -R
+  - ディレクトリ内の所有者も再帰的に変更
+
 ## cp
 ファイルをコピーする
 ```
 # a以下の全てをb以下にコピー
-cp -r a/. b/.
+cp -R a/. b/.
 ```
+
+### オプション
+- -p
+  - パーミッションもコピー
+- -R
+  - 再帰的にコピー
+  - -rは非推奨なので気をつける
 
 ## echo
 画面に文字列を表示
@@ -31,6 +51,18 @@ history
 history \| grep abc
 ```
 
+## tree
+ディレクトリ一覧
+
+```
+# ない場合インストール
+sudo apt install tree
+# 階層表示
+tree {root_path}
+# 隠しファイル含めて
+tree -a {root_path}
+```
+
 ## kill
 プロセスの停止  
 画面がフリーズしているときはCLI画面に Ctrl+Alt+F3 などで移動してから実行する
@@ -45,6 +77,17 @@ ps -ef | grep vlc
 # 強制停止
 kill -9 PID
 ```
+
+## shutdown
+```
+shutdown -h 分
+shutdown -h 1
+
+shutdown -r now # 再起動
+
+shutdown -c # キャンセル
+```
+
 
 ## その他
 

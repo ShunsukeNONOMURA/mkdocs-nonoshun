@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="http://0.0.0.0/mkdocs-dev/201-architecture/api.html">
+        <link rel="canonical" href="http://0.0.0.0/mkdocs-dev/101-tool/vscode-plugin.html">
       
       
-        <link rel="prev" href="001-naming-conventions.html">
+        <link rel="prev" href="../100-work/work-tool.html">
       
       
-        <link rel="next" href="ddd.html">
+        <link rel="next" href="../201-architecture/001-naming-conventions.html">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
     
     
       
-        <title>[まとめ中]API設計 - Nonoshun MkDocs</title>
+        <title>vscode plugin - Nonoshun MkDocs</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api" class="md-skip">
+        <a href="#vscode-plugin" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [まとめ中]API設計
+              vscode plugin
             
           </span>
         </div>
@@ -244,6 +244,20 @@
     <li class="md-nav__item">
       <a href="../000-mkdocs/mkdocs-installation.html" class="md-nav__link">
         導入
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../000-mkdocs/mkdocs-meta.html" class="md-nav__link">
+        メタ設定
       </a>
     </li>
   
@@ -392,30 +406,16 @@
       
       
         <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-          200 設計
+          101 tool
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          200 設計
+          101 tool
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="001-naming-conventions.html" class="md-nav__link">
-        命名規則
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -433,12 +433,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          [まとめ中]API設計
+          vscode plugin
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="api.html" class="md-nav__link md-nav__link--active">
-        [まとめ中]API設計
+      <a href="vscode-plugin.html" class="md-nav__link md-nav__link--active">
+        vscode plugin
       </a>
       
         
@@ -459,99 +459,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    書きたいメモ
+  <a href="#plugin" class="md-nav__link">
+    plugin一覧
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rest-api" class="md-nav__link">
-    REST API
+  <a href="#drawio-integration" class="md-nav__link">
+    Draw.io Integration のテーマ変更
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rest4" class="md-nav__link">
-    RESTの4原則
+  <a href="#markdown-preview-enhanced" class="md-nav__link">
+    Markdown Preview Enhanced 他プレビューを共存させる場合の注意
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#process" class="md-nav__link">
-    Process
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recouse" class="md-nav__link">
-    Recouse
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    リソース
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uriuniformed-resource-identifier" class="md-nav__link">
-    URI(Uniformed Resource Identifier)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uri" class="md-nav__link">
-    URIサンプル
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api-action" class="md-nav__link">
-    API Action
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#http-status-codes" class="md-nav__link">
-    HTTP Status Codes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#http-status-code" class="md-nav__link">
-    HTTP Status Code
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    設計サンプル
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    参考
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rest-api_1" class="md-nav__link">
-    参考：企業 REST API
+  <a href="#markdown-table-vscode-font" class="md-nav__link">
+    Markdown Table での vscode font 変更
   </a>
   
 </li>
@@ -560,20 +490,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ddd.html" class="md-nav__link">
-        [まとめ中]Domain Driven Design
-      </a>
     </li>
   
 
@@ -605,14 +521,14 @@
       
       
         <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-          300 Diffusion Model
+          200 設計
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          300 Diffusion Model
+          200 設計
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -622,8 +538,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../300-ai-diffusion-model/10-stable-diffusion-webui-hires.html" class="md-nav__link">
-        [要加筆] 解像度を高める方法
+      <a href="../201-architecture/001-naming-conventions.html" class="md-nav__link">
+        命名規則
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../201-architecture/ddd.html" class="md-nav__link">
+        [まとめ中]Domain Driven Design
       </a>
     </li>
   
@@ -656,14 +586,14 @@
       
       
         <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
-          301 ai diffusion model asset
+          320 llm
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
-          301 ai diffusion model asset
+          320 llm
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -673,8 +603,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../301-ai-diffusion-model-asset/001-models-stable-diffusion.html" class="md-nav__link">
-        モデル一覧
+      <a href="../320-llm/002-llm-react.html" class="md-nav__link">
+        ReAct
       </a>
     </li>
   
@@ -687,22 +617,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../301-ai-diffusion-model-asset/002c-lora-character.html" class="md-nav__link">
-        キャラクタ系Lora一覧
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../301-ai-diffusion-model-asset/003-textual-inversion.html" class="md-nav__link">
-        Textual Inversion 一覧
+      <a href="../320-llm/999-llm-tmp-memo.html" class="md-nav__link">
+        llm系記事投函場所備考
       </a>
     </li>
   
@@ -735,91 +651,12 @@
       
       
         <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
-          320 llm
+          400 technic linux
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_8">
-          <span class="md-nav__icon md-icon"></span>
-          320 llm
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../320-llm/001-llm-rag.html" class="md-nav__link">
-        RAG
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../320-llm/002-llm-react.html" class="md-nav__link">
-        ReAct
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../320-llm/999-llm-tmp-memo.html" class="md-nav__link">
-        LLM未整理
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
-      
-      
-      
-        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
-          400 technic linux
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
           400 technic linux
         </label>
@@ -853,20 +690,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../400-technic-linux/999-linux-tmp-memo.html" class="md-nav__link">
-        999 linux tmp memo
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -888,17 +711,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
       
       
       
-        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
           400 technic python
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_10">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
           400 technic python
         </label>
@@ -946,20 +769,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../400-technic-python/llm.html" class="md-nav__link">
-        [実験中] LLMの実行環境構築
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -981,17 +790,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
       
       
       
-        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
           401 technic git
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_11">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
           401 technic git
         </label>
@@ -1046,17 +855,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
       
       
       
-        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
           401 technic postgresql
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_12">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
           <span class="md-nav__icon md-icon"></span>
           401 technic postgresql
         </label>
@@ -1111,17 +920,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
       
       
       
-        <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
           402 technic opensearch
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_13">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
           <span class="md-nav__icon md-icon"></span>
           402 technic opensearch
         </label>
@@ -1232,17 +1041,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
       
       
       
-        <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
           410 technic nuxt
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_14">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_13">
           <span class="md-nav__icon md-icon"></span>
           410 technic nuxt
         </label>
@@ -1297,17 +1106,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
       
       
       
-        <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
           420 technic design
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_15">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_14">
           <span class="md-nav__icon md-icon"></span>
           420 technic design
         </label>
@@ -1348,17 +1157,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
       
       
       
-        <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
           499 technic memo
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_16">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_15">
           <span class="md-nav__icon md-icon"></span>
           499 technic memo
         </label>
@@ -1539,17 +1348,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
       
       
       
-        <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
           500 security
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_17">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_16">
           <span class="md-nav__icon md-icon"></span>
           500 security
         </label>
@@ -1590,17 +1399,17 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
       
       
       
-        <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
           900 生活
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_18">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_17">
           <span class="md-nav__icon md-icon"></span>
           900 生活
         </label>
@@ -1711,99 +1520,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    書きたいメモ
+  <a href="#plugin" class="md-nav__link">
+    plugin一覧
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rest-api" class="md-nav__link">
-    REST API
+  <a href="#drawio-integration" class="md-nav__link">
+    Draw.io Integration のテーマ変更
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rest4" class="md-nav__link">
-    RESTの4原則
+  <a href="#markdown-preview-enhanced" class="md-nav__link">
+    Markdown Preview Enhanced 他プレビューを共存させる場合の注意
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#process" class="md-nav__link">
-    Process
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recouse" class="md-nav__link">
-    Recouse
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    リソース
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uriuniformed-resource-identifier" class="md-nav__link">
-    URI(Uniformed Resource Identifier)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uri" class="md-nav__link">
-    URIサンプル
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api-action" class="md-nav__link">
-    API Action
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#http-status-codes" class="md-nav__link">
-    HTTP Status Codes
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#http-status-code" class="md-nav__link">
-    HTTP Status Code
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    設計サンプル
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    参考
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rest-api_1" class="md-nav__link">
-    参考：企業 REST API
+  <a href="#markdown-table-vscode-font" class="md-nav__link">
+    Markdown Table での vscode font 変更
   </a>
   
 </li>
@@ -1823,269 +1562,71 @@
                   
 
 
-<h1 id="api">[まとめ中]API設計<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
-<h2 id="_1">書きたいメモ<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>REST
-Resource
-Action
-HTTP Status
-設計サンプル
-versionを含める
-    v1, v2
-    破壊的更新の場合に別パスにする (v1.0.1, v1.1.0 -&gt; v1)
-    マイナーバージョン以下は更新されても互換性を保つので省略</p>
-<h2 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h2>
-<p>REpresentational State Transferの略。</p>
-<ul>
-<li>Representational →具象化された</li>
-<li>State →状態の</li>
-<li>Transfer →転送</li>
-</ul>
-<p>「REST」は標準化ではなくあくまで設計思想
-WebAPI設計に絶対解はないが、ベタープラクティスはある</p>
-<p>「RESTの4原則」というものがあり、これを満たすものを「RESTfulなシステム」と呼んだりします</p>
-<p>「REST API」とは先ほどのRESTの4原則に則ったAPI</p>
-<h2 id="rest4">RESTの4原則<a class="headerlink" href="#rest4" title="Permanent link">&para;</a></h2>
-<p>HTTPを設計した中心人物であるRoy Fielding氏が2000年に提唱したもの</p>
-<ul>
-<li>統一インターフェース<ul>
-<li>HTTPメソッドでJSON形式であるなど</li>
-</ul>
-</li>
-<li>アドレス可能性<ul>
-<li>URIで情報を表現する</li>
-</ul>
-</li>
-<li>接続性<ul>
-<li>情報にはハイパーリンクを含めることができる</li>
-<li>情報Aが持つ情報Bの詳細についてリンクからたどれる</li>
-</ul>
-</li>
-<li>ステートレス性<ul>
-<li>セッション管理しない</li>
-</ul>
-</li>
-</ul>
-<p>「リソース(リソース指向アーキテクチャ(ROA))」という概念</p>
-<p>xml形式</p>
-<h2 id="process">Process<a class="headerlink" href="#process" title="Permanent link">&para;</a></h2>
-<p>ProcessCode = RRRA
-ProcessName = ResouceNameActionName</p>
-<h2 id="recouse">Recouse<a class="headerlink" href="#recouse" title="Permanent link">&para;</a></h2>
-<p>3桁のコードで示すこと</p>
-<h2 id="_2">リソース<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li>collection</li>
-<li>object</li>
-</ul>
-<h2 id="uriuniformed-resource-identifier">URI(Uniformed Resource Identifier)<a class="headerlink" href="#uriuniformed-resource-identifier" title="Permanent link">&para;</a></h2>
-<p>覚えやすく、どんな機能を持つURIなのかがひと目でわかる</p>
-<ul>
-<li>短くて入力しやすい<ul>
-<li>長い場合、不要な情報があったり、重複するものがあったりするかも</li>
-</ul>
-</li>
-<li>人間が読んで理解できる</li>
-<li>大文字小文字が混在していない</li>
-<li>サーバーアーキテクチャが反映されていない</li>
-<li>ルールが統一されている</li>
-<li>バージョン番号が含まれたURI<ul>
-<li>hostname/api/v1/hogehoge のような形</li>
-</ul>
-</li>
-<li>リソース名<ul>
-<li>名詞</li>
-</ul>
-</li>
-</ul>
-<p>特に決まっていない</p>
-<ul>
-<li>ケース<ul>
-<li>キャメル、スネーク、スパイナルなど</li>
-<li>開発言語に寄せるなど</li>
-</ul>
-</li>
-</ul>
-<h2 id="uri">URIサンプル<a class="headerlink" href="#uri" title="Permanent link">&para;</a></h2>
-<p>collection
-collection/object_id
-collection/object_id/collection
-/collection</p>
-<p>user
-user/{user_id}
-user/{user_id}/message
-search
-search/user</p>
+<h1 id="vscode-plugin">vscode plugin<a class="headerlink" href="#vscode-plugin" title="Permanent link">&para;</a></h1>
+<p>vscode plugin と導入に当たって気を付けることをまとめるページ</p>
+<h2 id="plugin">plugin一覧<a class="headerlink" href="#plugin" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>リソース</th>
-<th>POST</th>
-<th>GET</th>
-<th>PUT</th>
-<th>DELETE</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>/customer</td>
-<td>新しい顧客を作成</td>
-<td>すべての顧客を取得</td>
-<td>顧客を一括更新</td>
-<td>すべての顧客を削除</td>
-</tr>
-<tr>
-<td>/customer/1</td>
-<td>エラー</td>
-<td>顧客 1 の詳細を取得</td>
-<td>顧客 1 の詳細を更新 (顧客 1 が存在する場合)</td>
-<td>顧客 1 を削除</td>
-</tr>
-<tr>
-<td>/customer/1/orders</td>
-<td>顧客 1 の新しい注文を作成</td>
-<td>顧客 1 のすべての注文を取得</td>
-<td>顧客 1 の注文を一括更新</td>
-<td>顧客 1 のすべての注文を削除</td>
-</tr>
-</tbody>
-</table>
-<p><a href="https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/api-design#define-api-operations-in-terms-of-http-methods">HTTP メソッドに関する API 操作の定義</a></p>
-<h2 id="api-action">API Action<a class="headerlink" href="#api-action" title="Permanent link">&para;</a></h2>
-<p>API Actionはおおむね次の８種類に分類。必要に応じて拡張する。</p>
-<table>
-<thead>
-<tr>
-<th>action-code</th>
-<th>action</th>
-<th>説明</th>
-<th>安全性</th>
-<th>冪等性</th>
-<th>HTTP Method</th>
+<th>プラグイン</th>
+<th>概要</th>
 <th>備考</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0</td>
-<td>Get</td>
-<td>単一のリソースを取得する操作。</td>
-<td>あり</td>
-<td>要</td>
-<td>GET</td>
+<td>SSH Remote</td>
+<td>SSHクライアント</td>
 <td></td>
 </tr>
 <tr>
-<td>1</td>
-<td>List</td>
-<td>全リソースを絞り込まずに一覧する操作。ページングは動作想定。</td>
-<td>あり</td>
-<td>要</td>
-<td>GET</td>
+<td>Draw.io Integration</td>
+<td>Draw.ioの作成</td>
+<td>name.dio.pngの空ファイル作成からすぐに利用可能</td>
+</tr>
+<tr>
+<td>Markdown Preview Enhanced</td>
+<td>markdownのプレビューとword形式等の出力</td>
+<td>他プレビュー系プラグインとの共存での設定に注意</td>
+</tr>
+<tr>
+<td>Marp</td>
+<td>markdownからパワポ出力</td>
 <td></td>
 </tr>
 <tr>
-<td>2</td>
-<td>Create</td>
-<td>リソースを新規に作成する操作。</td>
-<td>なし</td>
-<td>要</td>
-<td>POST</td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Patch</td>
-<td>既存リソースを部分的に変更する操作。</td>
-<td>なし</td>
-<td>不要</td>
-<td>PATCH</td>
-<td>ユーザの名前だけを更新するなど。使いどころがよくわからない</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Upsert</td>
-<td>リソース全体を置換、既存リソースがなければ作成する操作。</td>
-<td>なし</td>
-<td>要</td>
-<td>PUT</td>
-<td>名前を変えたユーザを更新するなど。</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Delete</td>
-<td>リソースを削除する操作。</td>
-<td>なし</td>
-<td>要</td>
-<td>DELETE</td>
-<td></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Task</td>
-<td>その他、上記に分類できない複雑な更新や計算などの操作。<br>バッチ処理など。</td>
-<td>なし</td>
-<td>不要</td>
-<td>POST</td>
-<td></td>
-</tr>
-<tr>
-<td>7</td>
-<td>Query</td>
-<td>特定の問い合わせ処理を要求する。検索結果など返り値データを再利用してもよい。データの永続化の必要性は問わない。</td>
-<td>あり</td>
-<td>要</td>
-<td>POST</td>
-<td></td>
+<td>Markdown Table</td>
+<td>markdownでのテーブル記述サポート</td>
+<td>全角:半角=2:1の等幅フォントで出ない場合崩れる</td>
 </tr>
 </tbody>
 </table>
-<h2 id="http-status-codes">HTTP Status Codes<a class="headerlink" href="#http-status-codes" title="Permanent link">&para;</a></h2>
-<h2 id="http-status-code">HTTP Status Code<a class="headerlink" href="#http-status-code" title="Permanent link">&para;</a></h2>
+<h2 id="drawio-integration">Draw.io Integration のテーマ変更<a class="headerlink" href="#drawio-integration" title="Permanent link">&para;</a></h2>
+<p>darkだと使いにくい場合があるので、kennedyあたりに変更すると良い。<br />
+File -&gt; Preferences -&gt; Settings -&gt;  Search Settings -&gt; hediet draw.io thema</p>
+<h2 id="markdown-preview-enhanced">Markdown Preview Enhanced 他プレビューを共存させる場合の注意<a class="headerlink" href="#markdown-preview-enhanced" title="Permanent link">&para;</a></h2>
+<p>Markdown Preview Enhanced が標準のプレビュー（Marpプレビューなど）をデフォルトで非表示にするので、表示するようにすると良い。
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w">  </span><span class="nt">&quot;markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div></p>
+<h2 id="markdown-table-vscode-font">Markdown Table での vscode font 変更<a class="headerlink" href="#markdown-table-vscode-font" title="Permanent link">&para;</a></h2>
+<p><img alt="" src="vscode-plugin/font-layout.PNG" /></p>
 <ul>
-<li>100系　情報系</li>
-<li>200系 正常系</li>
-<li>300系 転送系 </li>
-<li>400系 クライアントエラー</li>
-<li>500系 サーバーエラー</li>
+<li>windowsのvscodeにおいてデフォルトフォントのConsolasがテーブル記述に使いやすい等幅フォント（全角：半角 が ２：１）ではないためレイアウトが崩れる場合がある。<ul>
+<li>linuxだとデフォルトフォントのDroid Sans Monoが２：１フォントのようなのでレイアウト崩れに困らない</li>
 </ul>
-<p><a href="https://so-zou.jp/software/tech/network/tech/http/status-code/">HTTPステータス コード (HTTP status codes)</a></p>
-<table>
-<thead>
-<tr>
-<th>GET</th>
-<th>HTTP Status Codes (正常系)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>GET</td>
-<td>200</td>
-</tr>
-<tr>
-<td>POST</td>
-<td>201</td>
-</tr>
-<tr>
-<td>PUT</td>
-<td>200</td>
-</tr>
-<tr>
-<td>DELETE</td>
-<td>200</td>
-</tr>
-</tbody>
-</table>
-<h2 id="_3">設計サンプル<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h2 id="_4">参考<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://qiita.com/mserizawa/items/b833e407d89abd21ee72">翻訳: WebAPI 設計のベストプラクティス</a></li>
-<li><a href="https://dev.classmethod.jp/articles/cmdevio2018-api/">Developers.IO 2018 で「API 設計」の話をしてきた #cmdevio2018</a></li>
+</li>
+<li>vscodeの設定から全角：半角 が ２：１の等幅フォントを切り替えるとよい<ul>
+<li>File -&gt; Preferences -&gt; Settings -&gt;  Search Settings -&gt; editor.fontFamily</li>
+<li>簡単なのは 'MS Gothic' の追加</li>
+<li>好きなフォントがあれば適宜インストール</li>
+<li><a href="https://tamapoco.com/archives/9017">PlemolJP Console NF</a>あたりがよさそう</li>
+<li>フォントインストール後はvscodeの再起動が必要なことに注意</li>
 </ul>
-<h2 id="rest-api_1">参考：企業 REST API<a class="headerlink" href="#rest-api_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://developer.spotify.com/documentation/web-api">Spotify</a></li>
-<li><a href="https://developer.twitter.com/en/docs/twitter-api/migrate/twitter-api-endpoint-map">Twitter</a></li>
+</li>
 </ul>
 
 

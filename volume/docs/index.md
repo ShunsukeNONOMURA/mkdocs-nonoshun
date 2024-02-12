@@ -12,7 +12,7 @@
 ## リンク
 - [github repository mkdocs-nonoshun](https://github.com/ShunsukeNONOMURA/mkdocs-nonoshun)
 - [MkDocs nuxt3](https://shunsukenonomura.github.io/nuxt3-master/docs/volume/site/)
-- [MkDocs AI Image Generation](https://shunsukenonomura.github.io/mkdocs-ai-image-generation/volume/site/)
+- [MkDocs AI Image Generation](https://shunsukenonomura.github.io/mkdocs-generative-ai/volume/site/index.html)
 
 <!--
 - 引用時の利用方法については個人に委ねる

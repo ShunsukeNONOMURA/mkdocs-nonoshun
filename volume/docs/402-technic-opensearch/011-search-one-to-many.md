@@ -14,10 +14,10 @@
 
 作りとしては次のようなjson側をデータに持つようなイメージ。
 
-| _id | user_id | user_name | activity |
-| - | - | - | - |
-| user_00 | 00 | admin | [{"activity_id": "000", "activity_name": "活動名0"}, {"activity_id": "001", "activity_name": "活動名1"}] |
-| user_99 | 99 | guest | [{"activity_id": "002", "activity_name": "活動名2"}] |
+| _id     | user_id | user_name | activity                                                                                                 |
+| ------- | ------- | --------- | -------------------------------------------------------------------------------------------------------- |
+| user_00 | 00      | admin     | [{"activity_id": "000", "activity_name": "活動名0"}, {"activity_id": "001", "activity_name": "活動名1"}] |
+| user_99 | 99      | guest     | [{"activity_id": "002", "activity_name": "活動名2"}]                                                     |
 
 ### index作成
 ```

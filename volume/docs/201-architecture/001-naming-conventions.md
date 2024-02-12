@@ -1,15 +1,15 @@
 # 命名規則
 命名規則に関するあれこれをまとめていくページ。  
-あらかじめ定めておくことで、誰でも同じ方法で名前付けできるため、**可読性**、**一貫性**、**生産性**を向上させる上で重要。
+あらかじめ定めておくことで、誰でも同じ方法で名前付けできるため、可読性、一貫性、生産性を向上させる上で重要。
 
 ## 複合語（○○ケース）
 基本的に開発言語で規定されているので、代表例を列挙する程度にとどめる。
 
 - 規約例
-    - [python pep8-ja](https://pep8-ja.readthedocs.io/ja/latest/#)
-        - [python pep8-ja 命名規約](https://pep8-ja.readthedocs.io/ja/latest/#section-20)
     - [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
         - [TypeScript Deep Dive 日本語版 クラス名前空間](https://typescript-jp.gitbook.io/deep-dive/styleguide#ming-qian-kong-jian)
+    - [python pep8-ja](https://pep8-ja.readthedocs.io/ja/latest/#)
+        - [python pep8-ja 命名規約](https://pep8-ja.readthedocs.io/ja/latest/#section-20)
 
 ### スネークケース（英: snake_case）
 - 利用例
@@ -96,12 +96,12 @@
 
 ### 良く省略表現されるもの
 
-| 記述 | 非省略記述 | 意味 |
-| - | - | - |
-| id | identification | 身分証明、識別番号 |
-| idx | index | 索引 |
-| tmp | temporary | 一次的 |
-| init | initialize | 初期化する |
+| 記述 | 非省略記述     | 意味               |
+| ---- | -------------- | ------------------ |
+| id   | identification | 身分証明、識別番号 |
+| idx  | index          | 索引               |
+| tmp  | temporary      | 一次的             |
+| init | initialize     | 初期化する         |
 
 ### 参考：省略記法
 - [変数名に使う英単語を省略するのための4方式](https://qiita.com/Yusuke196/items/b5e51ee6d77ca1b672c2)

@@ -269,6 +269,16 @@ end
 ```
 [Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca#mermaid.js%E3%81%A7%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84%EF%BC%9F%E6%96%87%E5%AD%97)
 
+## 音声
+### ローカルリソース参照
+[VOICEVOX](https://voicevox.hiroshiba.jp/)で音声作成
+
+<audio src="./mkdocs-sample/ks.wav" controls></audio>
+
+```
+<audio src="./mkdocs-sample/ks.wav" controls></audio>
+```
+
 ## 動画
 ### ローカルリソース参照
 [stable diffusion webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (text2video) で動画作成
@@ -292,7 +302,7 @@ https://www.youtube.com/watch?v=jNQXAC9IVRw
 共有 -> 動画の埋め込み からhtml生成
 
 ## SNS
-### Twitter
+### X（旧Twitter）
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">just setting up my twttr</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ```
