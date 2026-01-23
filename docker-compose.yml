@@ -1,0 +1,19 @@
+version: "3"
+services:
+  mkdocs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
+    ports:
+      - "48000:48000"
+    working_dir: /root/projects/volume
+    command: mkdocs serve
+    restart: always
+    volumes:
+      - type: bind
+        source: "./volume"
+        target: "/root/projects/volume"
+
+  
