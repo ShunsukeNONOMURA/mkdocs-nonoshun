@@ -24,11 +24,12 @@ jobs:
 
       - name: build mkdocs for gh-pages
         run: |
-          mkdocs build --clean --config-file docs/mkdocs.yml --site-dir docs/mkdocs
+          cd volume
+          mkdocs build --clean --site-dir mkdocs
 
       - name: deploy to gh-pages
         run: |
-          cd docs/mkdocs
+          cd volume/mkdocs
           git init
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
