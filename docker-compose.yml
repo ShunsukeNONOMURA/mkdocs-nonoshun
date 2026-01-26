@@ -10,10 +10,19 @@ services:
       - "48000:48000"
     working_dir: /root/projects/volume
     command: mkdocs serve
-    restart: always
     volumes:
       - type: bind
         source: "./volume"
         target: "/root/projects/volume"
 
-  
+  nginx:
+    image: nginx:latest
+    ports:
+      - "48080:80"
+    volumes:
+      - type: bind
+        source: "./volume/site"
+        target: "/usr/share/nginx/html"
+        read_only: true
+    depends_on:
+      - mkdocs
