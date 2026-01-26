@@ -18,9 +18,19 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: install mkdocs
+      - name: install mkdocs deps
         run: |
-          pip install mkdocs
+          python -m pip install --upgrade pip
+          pip install \
+            mkdocs \
+            mkdocs-material \
+            plantuml-markdown \
+            python-markdown-math \
+            pygments \
+            pymdown-extensions \
+            mkdocs-awesome-pages-plugin \
+            mkdocs-autolinks-plugin \
+            mkdocs-macros-plugin
 
       - name: build mkdocs for gh-pages
         run: |
