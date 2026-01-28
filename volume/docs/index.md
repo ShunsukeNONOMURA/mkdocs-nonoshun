@@ -11,3 +11,8 @@ TBD
 
 ## links
 - [リポジトリ](https://github.com/ShunsukeNONOMURA/mkdocs-nonoshun)
+
+## 展望
+1. ドキュメント作成
+2. ドキュメント配置整理（html変換等）
+3. SDD統合最適化（spec kit 連携等）
