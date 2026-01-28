@@ -40,16 +40,11 @@ jobs:
           cd volume
           mkdocs build --clean --site-dir mkdocs
 
-      - name: deploy to gh-pages
-        run: |
-          cd volume/mkdocs
-          git init
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "deploy mkdocs"
-          git branch -M gh-pages
-          git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          git push -f origin gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: deploy to gh-pages under docs/mkdocs
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: volume/mkdocs
+          destination_dir: docs/mkdocs
+          force_orphan: true
